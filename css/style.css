@@ -17,13 +17,15 @@ h1 {
   height: 10000px;
 }
 
-.content section {
+section {
   padding-top: 60px;
-  border-top: 1px solid #eee; /* a bit hacky */
 }
-.content section:first-child {
+section:first-child {
   padding-top: 30px;
   border-top: none; /* a bit hacky */
+}
+section p {
+  margin-bottom: 30px;
 }
 .content div {
   margin: 0 0 19px;
@@ -35,7 +37,7 @@ h1 {
 }
 
 /* link class */
-a.external:hover {
+a:hover.external-icon {
   background: url(../assets/external-link-grey-light.png) no-repeat right;
   padding-right: 18px;
 }
@@ -63,7 +65,7 @@ a.external:hover {
 }
 .tool img {
   max-width: 250px;
-  max-height: 150px;
+  max-height: 148px;
 
 }
 .tool aside {
