@@ -45,8 +45,6 @@ $(window).scroll(function() {
         activeTarget = targets[i];
         setButton(activeTarget);
       }
-
-  		console.log(activeTarget)
     }
   }
 
