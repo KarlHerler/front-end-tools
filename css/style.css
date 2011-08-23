@@ -57,10 +57,10 @@ a:hover.external-icon {
 .tool .img {
   width: 250px; 
   height: 150px;
+  line-height: 148px;
   float: left;
   margin-right: 12px;
   border: 1px solid #EEE;
-  line-height: 150px;
   text-align: center;
 }
 .tool img {
