@@ -23,8 +23,9 @@
 
   <!-- CSS: implied media=all -->
   <!-- CSS concatenated and minified via ant build script-->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pre_style.css">
   <link rel="stylesheet" href="css/bootstrap-1.1.0.min.css">
+  <link rel="stylesheet" href="css/style.css">
   <!-- end CSS-->
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
@@ -46,36 +47,46 @@
           <h3><a href="#">Front-end Tools</a></h3>
           <ul>
             <li class="active"><a href="#about">About</a></li>
-            <li class=""><a href="#frameworks">Frameworks</a></li>
+            <ul class="nav">
+              <li class="menu">
+              <a class="menu">Frameworks</a>
+              <ul class="menu-dropdown" style="display: none; ">
+                <li><a href="#javascript">javascript</a></li>
+                <li class="divider"></li>
+                <li><a href="#visual">Visual</a></li>
+              </ul>
+              </li>
+            </ul>
             <li class=""><a href="#layouts">Layouts</a></li>
             <li class=""><a href="#typography">Typography</a></li>
-            <li class=""><a href="#tables">Tables</a></li>
+            <!--<li class=""><a href="#tables">Tables</a></li>
             <li class=""><a href="#forms">Forms</a></li>
-            <li class=""><a href="#navigation">Navigation</a></li>
+            <li class=""><a href="#navigation">Navigation</a></li>-->
             <li class=""><a href="#alerts">Alerts</a></li>
-            <li class=""><a href="#popovers">Popovers</a></li>
+            <!--<li class=""><a href="#popovers">Popovers</a></li>-->
           </ul>
         </div>
       </div>
     </div>
     </header>
     <div id="main" role="main" class="content">
-      <div>
+      <section>
         <h2>About</h2>
         <p>I have collected some of the front-end development tools that I use on a regular basis. This list is still a work in progress and I would love any contributions to it. At the moment if you want to contribute just head over to <a href="https://github.com/KarlHerler/front-end-tools/">github</a> where you will find the entire source for this project.</p>
-      </div>
-      <div id="frameworks">
-        <h2>Frameworks &amp; javascript</h2>
-        <p> a short paragraph about the thing.</p>
+      </section>
+      <section id="javascript">
+        <h2>Frameworks - javascript</h2>
+        <p>This section holds larger tools that have an impact on several parts of your project.</p>
+
         <div class="tool" id="jquery">
-          <div class="img" style="width: 250px; height: 150px; background:lightgrey;"></div>
+          <div class="img"><img src="img/jquery.png" alt="jquery" /> </div>
           <aside>
             <h3>jQuery</h3>
             <p>jQuery is a must have javascript framework.</p>
           </aside>
         </div>
         <div class="tool" id="CoffeeScript">
-          <div class="img" style="width: 250px; height: 150px; background:lightgrey;"></div>
+          <div class="img"><img src="img/coffeescript.png" alt="coffeescript" /></div>
           <aside>
             <h3>CoffeeScript</h3>
             <p>CoffeeScript is a fairly new addition to my stack.</p>
@@ -83,7 +94,7 @@
         </div>
 
         <div class="tool" id="Backbonejs">
-          <div class="img" style="width: 250px; height: 150px; background:lightgrey;"></div>
+          <div class="img"><img src="img/backbone.png" alt="backbone" /></div>
           <aside>
             <h3>Backbone.js</h3>
             <p>Backbone.js is also a fairly new addition to my stack. Backbone provides a Model-View-Controller (or Model-View-Collection as they call it) architecture to your webapp. Backbone also easies your communication to the server and provides you with a solid way of declaring your datastructures.</p> 
@@ -92,16 +103,31 @@
         </div>
 
         <div class="tool" id="html5boilerplate">
-          <div class="img" style="width: 250px; height: 150px; background:lightgrey;"></div>
+          <div class="img"><img src="img/html5-boilerplate.png" alt="html5-boilerplate" /></div>
           <aside>
             <h3>html5boilerplate</h3>
             <p>Html5boilerplate is so much more than just a boilerplate, it is all you need to have to get a solid start to any project.</p>
           </aside>
         </div>
-      </div>
-      <div id="layouts"></div>
-      <div id="typography"></div>
-      <div id="alerts">
+      </section>
+
+
+      <section id="visual">
+        <h2>Frameworks - Visual</h2>
+      </section>
+      <section id="layouts">
+        <h2>Layouts</h2>
+        <p></p>
+      </section>
+
+
+      <section id="typography">
+        <h2>Typography</h2>
+        <p></p>
+      </section>
+
+
+      <section id="alerts">
         <h2>Alerts and dialogs</h2>
         <p>The usual <code>alert('somethingrather')</code> dialog has long been a nuicence of front-end and people and does not provide a way of informing the user of something non-critical without interrupting her/his workflow.
         <div class="tool" id="smokejs">
@@ -111,7 +137,10 @@
           <p>Smoke.js a pretty little script package with several types of alerts.</p>
           </aside>
         </div>
-      </div>
+        
+      </section>
+
+
     </div>
     <footer>
 
