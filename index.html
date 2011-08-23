@@ -81,14 +81,14 @@
         <div class="tool" id="jquery">
           <div class="img"><img src="img/jquery.png" alt="jquery" /> </div>
           <aside>
-            <h3>jQuery</h3>
+            <h3><a href="#" class="external">jQuery</a></h3>
             <p>jQuery is a must have javascript framework.</p>
           </aside>
         </div>
         <div class="tool" id="CoffeeScript">
           <div class="img"><img src="img/coffeescript.png" alt="coffeescript" /></div>
           <aside>
-            <h3>CoffeeScript</h3>
+            <h3><a href="#" class="external">CoffeeScript</a></h3>
             <p>CoffeeScript is a fairly new addition to my stack.</p>
           </aside>
         </div>
@@ -96,7 +96,7 @@
         <div class="tool" id="Backbonejs">
           <div class="img"><img src="img/backbone.png" alt="backbone" /></div>
           <aside>
-            <h3>Backbone.js</h3>
+            <h3><a href="#" class="external">Backbone.js</a></h3>
             <p>Backbone.js is also a fairly new addition to my stack. Backbone provides a Model-View-Controller (or Model-View-Collection as they call it) architecture to your webapp. Backbone also easies your communication to the server and provides you with a solid way of declaring your datastructures.</p> 
             <p>Backbone isn't a tool that you will need on all your projects but if you are heading into (or are in) a web app project you really want to use backbone.</p>
           </aside>
@@ -105,7 +105,7 @@
         <div class="tool" id="html5boilerplate">
           <div class="img"><img src="img/html5-boilerplate.png" alt="html5-boilerplate" /></div>
           <aside>
-            <h3>html5boilerplate</h3>
+            <h3><a href="#" class="external">html5boilerplate</a></h3>
             <p>Html5boilerplate is so much more than just a boilerplate, it is all you need to have to get a solid start to any project.</p>
           </aside>
         </div>
@@ -114,16 +114,69 @@
 
       <section id="visual">
         <h2>Frameworks - Visual</h2>
+        <p>These <p>
+
+        <div class="tool" id="bootstrap">
+          <div class="img"><img src="img/bootstrap.png" alt="bootstrap" /></div>
+          <aside>
+            <h3><a href="#" class="external">Bootstrap</a></h3>
+            <p>Twitter recently launched a visual framework called "bootstrap", it is fairly lightweight, at the moment it might even be a bit too lightweight. It is the visualframework that powers most of this thing that you are looking at right now, albiet with some tweaks.</p>
+          </aside>
+        </div>
+
+        <div class="tool" id="blueprint">
+          <div class="img"><img src="img/blueprint.png" alt="blueprint" /></div>
+          <aside>
+            <h3><a href="#" class="external">Blueprint</a></h3>
+            <p>Blueprint is the mother of all css frameworks, it has everything you would need to start working on a site. It is a great tool for you if you aren't all that familiar with css and just want something that looks good out of the box.</p>
+          </aside>
+        </div>
+
+        <div class="tool" id="jQuery-ui">
+          <div class="img"><img src="img/jquery-ui.png" alt="jquery-ui" /></div>
+          <aside>
+            <h3><a href="#" class="external">jQuery UI</a></h3>
+            <p>jQuery UI is a complement to jQuery which offers User Interface components for most of your needs. I'll mention some specific components in other sections because they are good enough to stand on their own.</p>
+            <p>If tou want to spice jQuery UI up a bit I recommend taking a look at the <a href="http://taitems.github.com/Aristo-jQuery-UI-Theme/" class="external"> Aristo theme for jQuery UI</a> which is a theme designed for the cappucino framework by sofa. </p>
+          </aside>
+        </div>
+
+
       </section>
       <section id="layouts">
-        <h2>Layouts</h2>
-        <p></p>
+        <h2>Layouts &amp; Grids</h2>
+        <p>While I personally do not like grid systems I am often forced to work with them and many people like them so they do deserve a mention here. One should also notice that both bootstrap and blueprint provides a grid for usage so if you're swinging with those then you might aswell use that (unless you need a specific size).</p>
+
+        <div class="tool" id="960">
+          <div class="img" style="background: #123;"><img src="img/960.gif" alt="960" /></div><!-- YES! I just did that!-->
+          <aside>
+            <h3><a href="http://960.gs/" class="external">960.gs</a></h3>
+            <p>960.gs is the classic grid system, spanning 960 pixels and avaliable in 12 or 16 columns flavors. It is still very popular, if not the most poplular grid system.</p>
+          </aside>
+        </div>
+
+        <div class="tool" id="fluidgrid">
+          <div class="img"><img src="img/fluidgrid.png" alt="fluidgrid" /></div><!-- YES! I just did that!-->
+          <aside>
+            <h3><a href="http://fluid.newgoldleaf.com/" class="external">fluidgrid</a></h3>
+            <p>In a perfect world, all grids would be fluid.</p>
+          </aside>
+        </div>
+
+        <div class="tool" id="fluid-960">
+          <div class="img"><img src="img/fluid-960.png" alt="fluid-960" /></div>
+          <aside>
+            <h3><a href="http://www.designinfluences.com/fluid960gs/12/fixed/jquery/" class="external">Fluid 960 grid</a></h3>
+            <p>So sir wants to be fluid and 960? Well I have the thing for you. Actually I don't know anything about this grid, haven't used it but it exists at least.</p>
+          </aside>
+        </div>
+
       </section>
 
 
       <section id="typography">
         <h2>Typography</h2>
-        <p></p>
+        <p>Typography is a bit of a obession of mine so this section might get a bit nerdy.</p>
       </section>
 
 
@@ -133,7 +186,7 @@
         <div class="tool" id="smokejs">
           <div class="img" style="width: 250px; height: 150px; background:lightgrey;"></div>
           <aside>
-          <h3>smoke.js</h3>
+          <h3><a href="#" class="external">smoke.js</a></h3>
           <p>Smoke.js a pretty little script package with several types of alerts.</p>
           </aside>
         </div>
@@ -151,7 +204,7 @@
   <!-- JavaScript at the bottom for fast page loading -->
 
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>-->
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
 
 
@@ -163,10 +216,10 @@
 	
   <!-- Change UA-XXXXX-X to be your site's ID -->
   <script>
-    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+    /*window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
     Modernizr.load({
       load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
-    });
+    });*/
   </script>
 
 
