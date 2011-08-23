@@ -34,11 +34,23 @@ h1 {
   margin-bottom: 10px;
 }
 
+/* link class */
+a.external:hover {
+  background: url(../assets/external-link-grey-light.png) no-repeat right;
+  padding-right: 18px;
+}
 
 /* tool class */
 .tool {
   margin-top: 19px 0 0 0;
   min-height: 169px;
+}
+.tool h3 a {
+  color: #404040;
+}
+.tool h3 a:hover {
+  background: url(../assets/external-link-grey-light.png) no-repeat right;
+  padding-right: 18px;
 }
 .tool .img {
   width: 250px; 
