@@ -34,6 +34,9 @@
        Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
        For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
+
+  <!-- start Mixpanel --><script type="text/javascript">var mpq=[];mpq.push(["init","62a223d8da998629673d5f2a06f2740d"]);(function(){var b,a,e,d,c;b=document.createElement("script");b.type="text/javascript";b.async=true;b.src=(document.location.protocol==="https:"?"https:":"http:")+"//api.mixpanel.com/site_media/js/api/mixpanel.js";a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a);e=function(f){return function(){mpq.push([f].concat(Array.prototype.slice.call(arguments,0)))}};d=["init","track","track_links","track_forms","register","register_once","identify","name_tag","set_config"];for(c=0;c<d.length;c++){mpq[d[c]]=e(d[c])}})();
+</script><!-- end Mixpanel -->
 </head>
 
 <body>
@@ -62,7 +65,8 @@
             <!--<li class=""><a href="#tables">Tables</a></li>
             <li class=""><a href="#forms">Forms</a></li>
             <li class=""><a href="#navigation">Navigation</a></li>-->
-            <li class=""><a href="#alerts">Alerts</a></li>
+            <li class=""><a href="#alerts">Alerts &amp; Modal Overlays</a></li>
+            <li class=""><a href="#charting">Charting</a></li>
             <!--<li class=""><a href="#popovers">Popovers</a></li>-->
           </ul>
         </div>
@@ -81,15 +85,15 @@
         <div class="tool" id="jquery">
           <div class="img"><img src="img/jquery.png" alt="jquery" /> </div>
           <aside>
-            <h3><a href="#" class="external">jQuery</a></h3>
-            <p>jQuery is a must have javascript framework.</p>
+            <h3><a href="http://jquery.com/" class="external">jQuery</a></h3>
+            <p>jQuery is a must have javascript framework. If you don't use jQuery yet then you should stop reading right now and take a week off to learn it, seriously, I'll still be arround when you come back.</p>
           </aside>
         </div>
         <div class="tool" id="CoffeeScript">
           <div class="img"><img src="img/coffeescript.png" alt="coffeescript" /></div>
           <aside>
-            <h3><a href="#" class="external">CoffeeScript</a></h3>
-            <p>CoffeeScript is a fairly new addition to my stack.</p>
+            <h3><a href="http://jashkenas.github.com/coffee-script/" class="external">CoffeeScript</a></h3>
+            <p>CoffeeScript is a fairly new but very much appriciated addition to my stack. CoffeeScript is a language which adds a few small things to javascript that do wonders for the beauty and fun of the language. The only downside with it is that you want to compile CoffeeScript, which requires node.js and knowing what the word "compile" means.</p>
           </aside>
         </div>
 
@@ -102,6 +106,13 @@
           </aside>
         </div>
 
+      </section>
+
+
+      <section id="visual">
+        <h2>Frameworks - Visual</h2>
+        <p>These frameworks vary in their roles, from just prepering the a canvas for you to work on, to providing build tools and documentation.<p>
+
         <div class="tool" id="html5boilerplate">
           <div class="img"><img src="img/html5-boilerplate.png" alt="html5-boilerplate" /></div>
           <aside>
@@ -109,12 +120,6 @@
             <p>Html5boilerplate is so much more than just a boilerplate, it is all you need to have to get a solid start to any project.</p>
           </aside>
         </div>
-      </section>
-
-
-      <section id="visual">
-        <h2>Frameworks - Visual</h2>
-        <p>These <p>
 
         <div class="tool" id="bootstrap">
           <div class="img"><img src="img/bootstrap.png" alt="bootstrap" /></div>
@@ -129,6 +134,14 @@
           <aside>
             <h3><a href="#" class="external">Blueprint</a></h3>
             <p>Blueprint is the mother of all css frameworks, it has everything you would need to start working on a site. It is a great tool for you if you aren't all that familiar with css and just want something that looks good out of the box.</p>
+          </aside>
+        </div>
+
+        <div class="tool" id="skeleton">
+          <div class="img"><img src="img/skeleton.png" alt="blueprint" /></div>
+          <aside>
+            <h3><a href="#" class="external">Skeleton</a></h3>
+            <p>Skeleton is a simple and elegant boilerplate framework. It has very good mobile support and offers elegant typography for the typography novice.</p>
           </aside>
         </div>
 
@@ -177,17 +190,130 @@
       <section id="typography">
         <h2>Typography</h2>
         <p>Typography is a bit of a obession of mine so this section might get a bit nerdy.</p>
+
+        <div class="tool" id="google-webfonts">
+          <div class="img"><img src="img/google-webfonts.gif" alt="google-webfonts" /></div>
+          <aside>
+            <h3><a href="http://www.google.com/webfonts/" class="external">Google webfonts</a></h3>
+            <p>Google has been hard at work on making font embedding as easy as possible. Google webfonts is the culmination of all that work. It is arguably the best font embedding service if you do not need big name typefaces, because google webfonts is limited to free or open source typefaces.</p>
+          </aside>
+        </div>
+        <div class="tool" id="typekit">
+          <div class="img"><img src="img/typekit.png" alt="typekit" /></div>
+          <aside>
+            <h3><a href="http://www.designinfluences.com/fluid960gs/12/fixed/jquery/" class="external">typekit</a></h3>
+            <p>TypeKit was one of innovators in this field and they still have a very good service. If your typeface needs are more on modern typefaces and especially if you need Adobe&tm; typefaces then this is the service for you.</p>
+          </aside>
+        </div>
+        <div class="tool" id="webfonts">
+          <div class="img"><img src="img/webfonts.gif" alt="webfonts" /></div>
+          <aside>
+            <h3><a href="http://webfonts.fonts.com/" class="external">webfonts by fonts.com</a></h3>
+            <p>If you need to get big name typefaces on your site then this is the service I would recommend, although it has the worlds slowest admin site.</p>
+          </aside>
+        </div>
+        <div class="tool" id="fontsquirrel">
+          <div class="img"><img src="img/fontsquirrel.png" alt="fontsquirrel" /></div>
+          <aside>
+            <h3><a href="http://www.fontsquirrel.com/" class="external">FontSquirrel</a></h3>
+            <p>If you are into rolling your own webfonts or other vice don't want to use a second service for serving your fonts. Fontsquirrel also curates a large library of open source fonts which are free for commercial use.</p>
+          </aside>
+        </div>
+
       </section>
 
 
       <section id="alerts">
-        <h2>Alerts and dialogs</h2>
-        <p>The usual <code>alert('somethingrather')</code> dialog has long been a nuicence of front-end and people and does not provide a way of informing the user of something non-critical without interrupting her/his workflow.
+        <h2>Alerts &amp; Modal overlays</h2>
+        <p>Modal overlay is a umbrella term for things like lightboxes, popovers and any type of element which pops up infront of the content to promt the user to react.</p>
+        <!--<p>The usual <code>alert('somethingrather')</code> dialog has long been a nuicence of front-end and people and does not provide a way of informing the user of something non-critical without interrupting her/his workflow.</p>-->
+
+        <p> There are also a few modal dialogs avaliable in the <a href="http://me/~kalle/frontend-tools/#html5boilerplate">bootstrap framework</a> which was mentioned earlier.
+        
         <div class="tool" id="smokejs">
-          <div class="img" style="width: 250px; height: 150px; background:lightgrey;"></div>
+          <div class="img"><img src="img/smoke.png" alt="somkejs" /></div>
           <aside>
-          <h3><a href="#" class="external">smoke.js</a></h3>
-          <p>Smoke.js a pretty little script package with several types of alerts.</p>
+          <h3><a href="http://ssssnakes.com/smoke/" class="external">smoke.js</a></h3>
+          <p>Smoke.js a pretty little script package with several types of alerts. It is also framework agnostic and packaged to be self supporting. Smoke uses all kinds of html5 and css3 buzzwordtastic goodies to make it fast and easy to work with.</p>
+          </aside>
+        </div>
+
+        <div class="tool" id="smokejs">
+          <div class="img"><img src="img/smoke.png" alt="somkejs" /></div>
+          <aside>
+          <h3><a href="http://www.red-team-design.com/cool-notification-messages-with-css3-jquery" class="external">css3 & jquery notifications</a></h3>
+          <p>Smoke.js a pretty little script package with several types of alerts. It is also framework agnostic and packaged to be self supporting. Smoke uses all kinds of html5 and css3 buzzwordtastic goodies to make it fast and easy to work with.</p>
+          </aside>
+        </div>
+
+
+        <div class="tool" id="fancybox">
+          <div class="img"><img src="img/fancybox.png" alt="fancybox" /></div>
+          <aside>
+          <h3><a href="http://fancybox.net/" class="external">fancybox</a></h3>
+          <p>Smoke.js a pretty little script package with several types of alerts. It is also framework agnostic and packaged to be self supporting. Smoke uses all kinds of html5 and css3 buzzwordtastic goodies to make it fast and easy to work with.</p>
+          </aside>
+        </div>
+
+        <div class="tool" id="lightbox">
+          <div class="img"><img src="img/lightbox.png" alt="lightbox" /></div>
+          <aside>
+          <h3><a href="http://www.lokeshdhakar.com/projects/lightbox2/" class="external">lightbox 2</a></h3>
+          <p>Smoke.js a pretty little script package with several types of alerts. It is also framework agnostic and packaged to be self supporting. Smoke uses all kinds of html5 and css3 buzzwordtastic goodies to make it fast and easy to work with.</p>
+          </aside>
+        </div>
+
+        <div class="tool" id="drop-in">
+          <div class="img"><img src="img/drop-in.png" alt="lightbox" /></div>
+          <aside>
+          <h3><a href="http://www.zurb.com/playground/drop-in-modals" class="external">Drop-in Modals by zurb</a></h3>
+          <p>Zurb has in one of their experiments made a set of pretty nice modal dialogs. While these modal dialogs aren't packaged in a neat package that you can just drop into your project they are still very much worth a look. You should note that they use css3 quite heavily and might not be suitable for all of your projects.</p>
+          </aside>
+        </div>
+
+
+        
+      </section>
+
+
+      <section id="charting">
+        <h2>Charting &amp; Graphs</h2>
+        <p>Doing charts and datavisualizations is another of my <a href="http://mighty.no-de/">hobbies</a>. <br> Generally speaking there are three ways to go about making graphs:</p>
+        <ol>
+          <li><strong>Scalable Vector Graphics (svg) -tools.</strong> My favorite method because svg:s are very flexible, fast and easy to work with, but their biggest flaw is that older browsers might not support svg or they might support it only partially</li>
+          <li><strong>Flash -tools.</strong> Flash tools are the older way of making charts and is still quite popular due too the market penetration of flash and support for older browsers (just as long as they have flash installed). If you plan on supporting anything with an "i" as the first letter of it's name and an apple on the back then this tool is unfortunately out of the window, also flash sucks.</li>
+          <li><strong>Server-side pre-render.</strong> This method uses a little help from a server to create the charts and then sends them to front-end as an image. I wont go into so many of these because they aren't strictly front-end tools but there's a plethora of tools depending on what kind of server environment you use, there's also some hosted tools that do it for you.</li>
+        </ol>
+
+        <div class="tool" id="highcharts">
+          <div class="img"><img src="img/highcharts.png" alt="highcharts" /></div>
+          <aside>
+          <h3><a href="http://ssssnakes.com/smoke/" class="external">Highcharts</a></h3>
+          <p>Smoke.js a pretty little script package with several types of alerts. It is also framework agnostic and packaged to be self supporting. Smoke uses all kinds of html5 and css3 buzzwordtastic goodies to make it fast and easy to work with.</p>
+          </aside>
+        </div>
+
+        <div class="tool" id="graphael">
+          <div class="img"><img src="img/graphael.png" alt="graphael" /></div>
+          <aside>
+          <h3><a href="http://g.raphaeljs.com/" class="external">g.raphaël</a></h3>
+          <p>Smoke.js a pretty little script package with several types of alerts. It is also framework agnostic and packaged to be self supporting. Smoke uses all kinds of html5 and css3 buzzwordtastic goodies to make it fast and easy to work with.</p>
+          </aside>
+        </div>
+
+        <div class="tool" id="smokejs">
+          <div class="img"><img src="img/smoke.png" alt="somkejs" /></div>
+          <aside>
+          <h3><a href="http://ssssnakes.com/smoke/" class="external">flashcharts</a></h3>
+          <p>Smoke.js a pretty little script package with several types of alerts. It is also framework agnostic and packaged to be self supporting. Smoke uses all kinds of html5 and css3 buzzwordtastic goodies to make it fast and easy to work with.</p>
+          </aside>
+        </div>
+
+        <div class="tool" id="google-charts">
+          <div class="img"><img src="img/google-charts.png" alt="google-charts" /></div>
+          <aside>
+          <h3><a href="http://code.google.com/apis/chart" class="external">google charts</a></h3>
+          <p>Smoke.js a pretty little script package with several types of alerts. It is also framework agnostic and packaged to be self supporting. Smoke uses all kinds of html5 and css3 buzzwordtastic goodies to make it fast and easy to work with.</p>
           </aside>
         </div>
         
@@ -196,7 +322,7 @@
 
     </div>
     <footer>
-
+      &copy; Karl Herler - Licenced under the MIT Licence. <br /> <a style="opacity: 0.5" href="http://mixpanel.com/f/partner"><img src="http://mixpanel.com/site_media/images/partner/badge_light.png" alt="Web Analytics" /></a>
     </footer>
   </div> <!--! end of #container -->
 
