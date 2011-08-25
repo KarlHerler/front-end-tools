@@ -13,10 +13,6 @@ h1 {
   margin: 18px 0;
 }
 
-.content {
-  height: 10000px;
-}
-
 section {
   padding-top: 60px;
 }
@@ -72,7 +68,12 @@ a:hover.external-icon {
   float: left;
   width: 673px;
 }
-
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #ddd;
+  border: 0;
+}
 
 
 
