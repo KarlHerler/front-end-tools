@@ -1,6 +1,12 @@
 /* Author: Karl Herler
 
 */
+
+
+//mixpanel link tracking
+mpq.track_links("a", "clicked link");
+
+
 $(window).scroll(function() {
 	if($(window).scrollTop()>30) {
 		$(".topbar").slideDown('fast');
