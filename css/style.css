@@ -74,7 +74,9 @@ footer {
   color: #ddd;
   border: 0;
 }
-
+footer a:link {
+  color: #ddd;
+}
 
 
 
